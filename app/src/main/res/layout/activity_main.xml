@@ -6,16 +6,18 @@
     android:layout_width="match_parent"
     android:id="@+id/view_container"
     android:layout_height="match_parent"
-    android:background="@color/purple_700"
+    android:background="@color/background"
     tools:context=".ui.view.MainActivity">
 
     <ImageView
         android:id="@+id/tvImage"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:scaleType="fitCenter"
         android:layout_gravity="center"
-        android:contentDescription="@string/author_image" />
+        android:contentDescription="@string/author_image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/tvAuthor"/>
 
     <TextView
         android:id="@+id/tvQuote"
@@ -26,7 +28,7 @@
         android:padding="16dp"
         android:textColor="@color/white"
         android:textSize="24sp"
-        android:textStyle="italic"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,7 +43,8 @@
         android:padding="16dp"
         android:textColor="@color/white"
         android:textSize="24sp"
-        android:textStyle="italic"
+        android:textStyle="italic|bold"
+        app:layout_constraintTop_toBottomOf="@+id/tvImage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>
