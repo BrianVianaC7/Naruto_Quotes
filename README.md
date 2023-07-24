@@ -3,7 +3,7 @@
 Mobile App using Clean Architecture, MVVM, ROOM, Retrofit, Dagger HILT and Firebase for the cloud services which contains Quotes, Author and Image to offer a collection of inspirational quotes from the famous anime series "Naruto". In addition, unit tests have been included to ensure the quality and stability of the code.
 
 <p align="start">
-<a href="https://github.com/BrianVianaC7&Naruto?Quotes">
+<a href="https://github.com/BrianVianaC7/Naruto?Quotes">
 <img src="https://github.com/BrianVianaC7/Naruto_Quotes/assets/120147778/02ecf304-6a74-454d-be44-019670ccbb11" alt="Image 1">
 <img src="https://github.com/BrianVianaC7/Naruto_Quotes/assets/120147778/3585bfd2-2a51-49f2-b504-07a0d8443d77" alt="Image 2">
 <img src="https://github.com/BrianVianaC7/Naruto_Quotes/assets/120147778/5b258301-b4d5-4292-8f4c-7b9c049f2af8" alt="Image 3">
